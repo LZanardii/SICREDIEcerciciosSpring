@@ -6,6 +6,8 @@ import com.example.DogService.Service.DogService;
 import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -22,13 +24,13 @@ public class DogController {
     private final DogService service;
 
     @GetMapping("/dogs")
-    public List<Dog> getDogs() {
-        return service.getDogs();
+    public ResponseEntity<List<Dog>> getDogs() {
+        return new ResponseEntity<>(service.getDogs(), HttpStatus.OK);
     }
 
     @PostMapping("/dogs/post")
-    public void postDogs(@RequestBody Dog dto) {
-        service.add(dto);
+    public ResponseEntity<String> postDogs(@RequestBody Dog dto) {
+        return new ResponseEntity<>(service.add(dto), HttpStatus.OK);
     }
 
     @GetMapping("/dogs/{id}")
@@ -37,7 +39,8 @@ public class DogController {
     }
 
     @DeleteMapping("/delete/{id}")
-    public void delete(@PathVariable(required = true) long id) {
-        service.delete(id);
+    public ResponseEntity<String> delete(@PathVariable(required = true) long id) {
+        return new ResponseEntity<>(service.delete(id), HttpStatus.OK);
     }
+
 }
