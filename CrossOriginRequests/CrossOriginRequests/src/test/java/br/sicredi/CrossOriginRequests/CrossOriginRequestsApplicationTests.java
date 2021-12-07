@@ -1,7 +1,6 @@
 package br.sicredi.CrossOriginRequests;
 
-import br.sicredi.CrossOriginRequests.services.Greeting;
-import org.junit.jupiter.api.Test;
+import br.sicredi.CrossOriginRequests.entities.Greeting;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest

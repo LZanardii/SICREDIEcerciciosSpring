@@ -1,4 +1,4 @@
-package br.sicredi.CrossOriginRequests.services;
+package br.sicredi.CrossOriginRequests.entities;
 
 public class Greeting {
 

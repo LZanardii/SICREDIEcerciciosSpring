@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="cf4f9d9d-1bdf-4b5d-b5c4-2b1d2e4c4c72" name="LivrariaDatabase" url="jdbc:postgresql://localhost/livrariaProject" driverClass="org.postgresql.Driver" />
+    </data-sources>
+  </component>
+</project>

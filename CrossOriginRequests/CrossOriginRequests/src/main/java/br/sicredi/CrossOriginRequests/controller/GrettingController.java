@@ -1,7 +1,7 @@
 package br.sicredi.CrossOriginRequests.controller;
 
 
-import br.sicredi.CrossOriginRequests.services.Greeting;
+import br.sicredi.CrossOriginRequests.entities.Greeting;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -23,7 +23,6 @@ public class GrettingController {
         return new Greeting(counter.incrementAndGet(), String.format(template, name));
     }
 
-    @CrossOrigin(origins = {"http://localhost:8080"})
     @GetMapping("/greeting-javaconfig")
     public Greeting greetingWithJavaconfig(@RequestParam(required = false, defaultValue = "World") String name) {
         System.out.println("==== in greeting ====");

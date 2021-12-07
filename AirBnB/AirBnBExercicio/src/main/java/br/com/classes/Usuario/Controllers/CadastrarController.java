@@ -1,7 +1,7 @@
 package br.com.classes.Usuario.Controllers;
 
-import br.com.classes.Usuario.CadastroUsuario;
-import br.com.classes.Usuario.Usuario;
+import br.com.classes.Usuario.service.CadastroUsuario;
+import br.com.classes.Usuario.model.Usuario;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;

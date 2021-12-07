@@ -33,6 +33,7 @@ public class DogsServiceErrorAdvice {
     private ResponseEntity<String> error(HttpStatus status, Exception e) {
         log.error("Exception : ", e);
         return ResponseEntity.status(status).body(e.getMessage());
+        //return new ResponseEntity<>(e.getMessage(), status);
     }
 
 

@@ -42,5 +42,4 @@ public class DogController {
     public ResponseEntity<String> delete(@PathVariable(required = true) long id) {
         return new ResponseEntity<>(service.delete(id), HttpStatus.OK);
     }
-
 }

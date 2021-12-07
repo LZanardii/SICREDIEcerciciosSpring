@@ -1,0 +1,16 @@
+
+U
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(Çš¬P
+;
+java:S1452"&Remove usage of generic wildcard type.(Çš¬P
+A
+java:S1452"&Remove usage of generic wildcard type.(ƒÇÇçÿÿÿÿÿ
+A
+java:S1452-"&Remove usage of generic wildcard type.(ÞÑÑÃþÿÿÿÿ
+o
+java:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(š†ý°
+t
+java:S2293%"YReplace the type specification in this constructor call with the diamond operator ("<>").(´µ×ÿþÿÿÿÿ
+t
+java:S2293("YReplace the type specification in this constructor call with the diamond operator ("<>").(ë¦Þ‹úÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¥£ŠÓüÿÿÿÿ

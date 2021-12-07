@@ -1,0 +1,14 @@
+
+Q
+java:S1128"6Remove this unused import 'lombok.AllArgsConstructor'.(´œ¾öùÿÿÿÿ
+C
+java:S1128"(Remove this unused import 'lombok.Data'.(÷í«ÿÿÿÿÿ
+K
+java:S1128	"5Remove this unused import 'lombok.NoArgsConstructor'.(¸¨›
+V
+java:S1128
+";Remove this unused import 'lombok.RequiredArgsConstructor'.(ÑØúøÿÿÿÿ
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+‹
+java:S13199"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(…ó¨ûøÿÿÿÿ

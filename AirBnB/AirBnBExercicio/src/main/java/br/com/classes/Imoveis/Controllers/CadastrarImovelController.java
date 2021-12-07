@@ -1,8 +1,8 @@
 package br.com.classes.Imoveis.Controllers;
 
 
-import br.com.classes.Imoveis.CadastroImovel;
-import br.com.classes.Imoveis.Imovel;
+import br.com.classes.Imoveis.service.CadastroImovel;
+import br.com.classes.Imoveis.model.Imovel;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

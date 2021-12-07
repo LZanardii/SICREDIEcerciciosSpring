@@ -1,0 +1,23 @@
+
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(·¦
+B
+java:S1125 "'Remove the unnecessary boolean literal.(¥…¦ıûÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(—õŸàıÿÿÿÿ
+B
+java:S1125*"'Remove the unnecessary boolean literal.(é­‡Îúÿÿÿÿ
+=
+java:S11258"'Remove the unnecessary boolean literal.(ó¦•·
+=
+java:S1125{"'Remove the unnecessary boolean literal.(Ï©Ëî
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(·ğ£ûüÿÿÿÿ
+†
+java:S1319`"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ûÃöÙ
+‹
+java:S1319d"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Æ—ıİúÿÿÿÿ
+†
+java:S1319n"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¿ë÷”
+‹
+java:S1319x"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(éÎÛüÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”˜Êå
