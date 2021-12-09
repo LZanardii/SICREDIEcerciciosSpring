@@ -1,10 +1,0 @@
-
-c
-java:S4034"HReplace this "filter().findFirst().isPresent()" chain with "anyMatch()".(öæ®‰ýÿÿÿÿ
-t
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯š±®øÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ð¯´žùÿÿÿÿ
-d
-java:S3655'"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¬Ï
-f
-java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Ó”º±
