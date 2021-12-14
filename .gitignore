@@ -1,0 +1,44 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+!C:\Users\leonardo_zanardi\OneDrive - Sicredi\Desktop\Respositório\SICREDIEcerciciosSpring\AirBnB
+!C:\Users\leonardo_zanardi\OneDrive - Sicredi\Desktop\Respositório\SICREDIEcerciciosSpring\CrossOriginRequests
+!C:\Users\leonardo_zanardi\OneDrive - Sicredi\Desktop\Respositório\SICREDIEcerciciosSpring\DevDojo
+!C:\Users\leonardo_zanardi\OneDrive - Sicredi\Desktop\Respositório\SICREDIEcerciciosSpring\DogService
+!C:\Users\leonardo_zanardi\OneDrive - Sicredi\Desktop\Respositório\SICREDIEcerciciosSpring\ForumAlura
+!C:\Users\leonardo_zanardi\OneDrive - Sicredi\Desktop\Respositório\SICREDIEcerciciosSpring\GuideJpaH2
+!C:\Users\leonardo_zanardi\OneDrive - Sicredi\Desktop\Respositório\SICREDIEcerciciosSpring\Livraria
+!C:\Users\leonardo_zanardi\OneDrive - Sicredi\Desktop\Respositório\SICREDIEcerciciosSpring\MongoDb
+!C:\Users\leonardo_zanardi\OneDrive - Sicredi\Desktop\Respositório\SICREDIEcerciciosSpring\PrimeiroExercicio
+!C:\Users\leonardo_zanardi\OneDrive - Sicredi\Desktop\Respositório\SICREDIEcerciciosSpring\SegundoExercicio
+!C:\Users\leonardo_zanardi\OneDrive - Sicredi\Desktop\Respositório\SICREDIEcerciciosSpring\Security
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
